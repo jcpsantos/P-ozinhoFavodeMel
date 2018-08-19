@@ -1,0 +1,211 @@
+
+/* responsive css*/
+
+/*1200px – Desktops, notebooks com monitores widescreen
+***********************************************************/
+@media screen and (max-width:1200px){
+	/*Ajuste das tabelas*/	
+.tabela1{
+	margin-left: 100px;
+}
+
+.tabela2{
+	margin-left: 50px;
+}
+
+.banner{
+	background:url(../images/bannerbg.jpg) no-repeat;
+	position:relative;
+	background-size:cover;
+	width: 100%;
+}
+	
+}
+
+/*960px – Tablets no formato paisagem e alguns monitores mais antigos
+***********************************************************/
+@media screen and (max-width:960px){
+	/*Ajuste das tabelas*/	
+.tabela1{
+	margin-left: 100px;
+}
+
+.tabela2{
+	margin-left: 50px;
+}
+
+
+.banner{
+	background:url(../images/bannerbg.jpg) no-repeat;
+	position:relative;
+	background-size:cover;
+	width: 100%;
+}
+
+
+	
+	
+}
+
+/* Tabe Screen Media */
+
+@media screen (min-width: 769px) and (max-width: 991px){
+
+
+.sinle_features {
+    padding: 50px 0px;
+	width: 60%;
+	margin:0 auto;
+}
+
+.banner{
+	background:url(../images/bannerbg.jpg) no-repeat;
+	position:relative;
+	background-size:cover;
+	width: 100%;
+}
+
+
+
+	
+}
+
+/* Tablet */
+
+/*768px – Tablets no formato retrato, como o iPad
+***********************************************************/
+@media screen and (max-width:768px){
+	
+.single_special_img img{
+	width:100%;
+}
+
+.single_contact{
+	text-align:center;
+	color:#CE2715;
+}
+.contact_form_area{
+	color:#CE2715;
+}
+.contact_form_area h3{
+	text-align:center;
+	margin-bottom:0;
+	color:#CE2715;
+}
+.form-control {
+    border: 0px solid transparent;
+    font-size: 16px;
+    font-family: 'Merriweather', serif;
+    height: 45px;
+    border-bottom: 1px solid #ddd;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 0;
+    -webkit-box-shadow: 0;
+    box-shadow: inset 0 0px 0px rgba(0,0,0,0.075);
+}
+
+
+.single_contact {
+    margin-bottom: 40px;
+    margin-left: 10px;
+    font-size: 8px;
+}
+.single_contact h5{
+	color:#CE2715;
+}
+
+.single_footer{
+	text-align:center;
+}
+
+.chamada{
+	display: none;
+}
+	
+
+.contato{
+	margin-right: 0;
+	/*margin-left: -10px;*/
+}
+
+.tabela1{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.tabela2{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.pao{
+	margin-top: 130px;
+}
+
+.banner{
+	background:url(../images/bannerbg.jpg) no-repeat;
+	position:relative;
+	background-size:cover;
+	width: 100%;
+}
+
+		
+}
+
+/* Mobile Phone Screen Media */
+
+/* 
+480px – Smartphones no formato paisagem com tela pequena
+***********************************************************/
+@media screen and (max-width:480px){
+	
+
+.main_contact_content .form-control {
+    height: 45px;
+	display:inline-block;
+}
+
+.pao{
+	margin-top: 0px;
+}
+
+
+
+.contato{
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.tabela1{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.tabela2{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.banner{
+	background:url(../images/bannerbg.jpg) no-repeat;
+	position:relative;
+	background-size:cover;
+	width: 100%;
+}
+
+
+
+		
+}
+
+/* 
+320px – Smartphones no formato retrato com tela pequena
+***********************************************************/
+@media screen and (max-width:320px){
+	.banner{
+	background:url(../images/bannerbg.jpg) no-repeat;
+	position:relative;
+	background-size:cover;
+	width: 100%;
+}
+}
